@@ -56,7 +56,10 @@ g++ -std=c++17 main26.cpp AnomalyVisualizer.cpp -o particle_visualizer -lGL -lGL
 or
 
 $ mkdir build
+
 $ cd build
+
 $ cmake ..
+
 $ cmake --build .
 $ sudo cmake --install .
