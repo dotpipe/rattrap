@@ -49,6 +49,23 @@ This program provides a glimpse into the complex world of subatomic particles, a
 ### Conclusion
 The particle simulation program is a fascinating blend of theoretical physics and computational modeling. It enables users to simulate, analyze, and record particle interactions with ease, offering both educational and research value. Whether you're a physics enthusiast or a student looking to grasp particle behavior, this program offers a unique and informative experience.
 
+# RatTrap Particle Physics Simulator
+
+## Dependencies
+
+This project requires the following libraries:
+
+- OpenGL
+- GLUT (OpenGL Utility Toolkit)
+- GLU (OpenGL Utility Library)
+- SFML 2.5 or higher (Simple and Fast Multimedia Library)
+
+Make sure to install these dependencies before building the project.
+
+## Building
+
+To build the project, follow these steps:
+
 ### Compile
 
 g++ -std=c++17 main26.cpp AnomalyVisualizer.cpp -o particle_visualizer -lGL -lGLU -lglut -lsfml-graphics -lsfml-window -lsfml-system
