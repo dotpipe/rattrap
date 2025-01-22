@@ -51,4 +51,12 @@ The particle simulation program is a fascinating blend of theoretical physics an
 
 ### Compile
 
-g++ -std=c++17 main26.cpp AnomalyVisualizer.cpp -o particle_visualizer -lGL -lGLU -lglut -lsfml-graphics -lsfml-window -lsfml-system -fpermissive
+g++ -std=c++17 main26.cpp AnomalyVisualizer.cpp -o particle_visualizer -lGL -lGLU -lglut -lsfml-graphics -lsfml-window -lsfml-system
+
+or
+
+$ mkdir build
+$ cd build
+$ cmake ..
+$ cmake --build .
+$ sudo cmake --install .
